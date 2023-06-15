@@ -1,8 +1,8 @@
 ## Path to your gtf file
-gtf_file = "../gencode.v41.basic.annotation.gtf"
+gtf_file = "/path/to/gtf/gencode.v41.basic.annotation.gtf"
 
 ## Path to your bam files
-path_to_bams = "../../../../../Hundley/RIPseq_6.7.23/OneDrive_1_6-7-2023/U373{condition}.bam"
+path_to_bams = "/path/to/bams/{condition}.bam"
 
 ## Transcript types
 genetype = "protein_coding"
