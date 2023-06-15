@@ -21,7 +21,7 @@ rule get_exon_intron_coords:
     output:
         "introns_exons.gtf",
     shell:
-        "python intronExon.py --gtf {input.gtf} --genetype {genetype}"
+        "python scripts/intronExon.py --gtf {input.gtf} --genetype {genetype}"
 ## Count the reads in the introns and the exons
 rule count_overlapping_exons:
     input:
@@ -39,4 +39,4 @@ rule counts_to_rpkm:
         "intron_exon_rpkm.txt",
         "intron_exon_rpkm_summary.txt"
     shell:
-        "python calculateRPKM.py --counts {input.count_file}"
+        "python scripts/calculateRPKM.py --counts {input.count_file}"
