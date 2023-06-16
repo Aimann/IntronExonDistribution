@@ -6,7 +6,6 @@ import sys
 import pandas as pd
 import os
 from datetime import datetime
-import csv
 
 class exonIntron(object):
     
