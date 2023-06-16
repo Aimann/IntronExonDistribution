@@ -23,7 +23,7 @@ class exonIntronRPKM(object):
             introncounts = rpkmcounts.filter(like='intron', axis=0)
             exoncounts = rpkmcounts.filter(like='exon', axis=0)
             totalcounts = introncounts[col].sum() + exoncounts[col].sum()
-            outdata.append([col, introncounts[col].sum(), exoncounts[col].sum(), round((introncounts[col].sum() / totalcounts)*100,2), round((exoncounts[col].sum() / totalcounts)*100)],2)
+            outdata.append([col, introncounts[col].sum(), exoncounts[col].sum(), round((introncounts[col].sum() / totalcounts)*100, 2), round((exoncounts[col].sum() / totalcounts)*100, 2)])
             # print(col + '\t' + str(introncounts[col].sum()) + '\t' + str(exoncounts[col].sum()) + '\t' + str(round((introncounts[col].sum() / totalcounts)*100)) + '\t' + str(round((exoncounts[col].sum() / totalcounts)*100)) + '\n')
         outdf = pd.DataFrame(outdata, columns=['Sample', 'Total Introns RPKM', 'Total Exons RPKM', '% Introns', '% Exons'])
 
