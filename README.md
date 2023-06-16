@@ -41,12 +41,20 @@ conda activate intronexon
 ### Getting the exonic and intronic mapping reads from a set of RNA-seq bam files
 
 1. Update the Snakefile with the full path to your Gencode GTF file.
+```bash
+## Path to your gtf file
+gtf_file = "/path/to/gtf/gencode.v41.basic.annotation.gtf"
+```
 2. Update the Snakefile with the path to your bam files. Can be used to grab all bam files in a directory.
+```bash
+## Path to your bam files
+path_to_bams = "/path/to/bams/{condition}.bam"
+```
 3. Navigate to the directory with your Snakefile and run it with:
-
 ```bash
 snakemake
 ```
+
 ### Output files
 * `intron_exon_counts.tx` contains the intronic and exonic read counts for each gene in the provided GTF file
 * `intron_exon_rpkm.txt` contains the intronic and exonic RPKM values for each gene in the provided GTF file
