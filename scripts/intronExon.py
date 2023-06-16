@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #Aidan Manning 6.14.23
-#Script to determine sites of tRNA modficiation from sequencing data and generates some plots
+#Script to calculate the reads mapping to either introns or exons in RNA sequencing data
 import argparse
 import sys
 import pandas as pd

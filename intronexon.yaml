@@ -1,3 +1,4 @@
+name: intronexon
 channels:
   - conda-forge
   - bioconda
