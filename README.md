@@ -17,18 +17,20 @@ conda env create -f intronexon.yml
 
 ### Gencode GTF File
 
-Can just grab the most recent gencode gtf file using the following
+Grab the most recent gencode gtf file
 
 ```bash
 wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_41/gencode.v41.basic.annotation.gtf.gz
 ```
 
-and then unzip this file
+unzip this file
 ```bash
 gunzip gencode.v41.basic.annotation.gtf.gz
 ```
 
 ## Usage
+
+This script extracts the longest isoform of each gene in a given gtf file tagged as 'protein_coding' (default) and splits it into its respective introns and exons. It then determines the number of reads mapping to each of these transcript features only being assigned to the feature it overlaps the most. 
 
 ### Activating the environment
 
@@ -38,16 +40,15 @@ conda activate intronexon
 
 ### Getting the exonic and intronic mapping reads from a set of RNA-seq bam files
 
-This script extracts the longest isoform of each gene in a given gtf file tagged as 'protein_coding' (default) and splits it into its respective introns and exons. It then determines the number of reads mapping to each of these transcript features only being assigned to the feature it overlaps the most. 
+1. Update the Snakefile with the full path to your Gencode GTF file.
+2. Update the Snakefile with the path to your bam files. Can be used to grab all bam files in a directory.
+3. Navigate to the directory with your Snakefile and run it with:
 
 ```bash
 snakemake
 ```
-
-* `--cov` is the path to the tRAX coverage file you want to analyse modifications from.
-* `--alignments` is the path to the stockholm file containing the mature tRNA alignments from tRAX makedb.py; dbname-trnaalign.stk.
-* `--o`  is the prefix for the output files.
-* (optional flags)
-* `--minreads` is the minumum number of read coverage of a base required to go into analysis; default=20.
-* `--org` organism of interest (euk, bact, arch, mito); default='euk'.
-* `--plot` whether or not to generate a bar plot showing the Sprinzl positions containing instances of isodecoder variation.
+### Output files
+* `intron_exon_counts.tx` contains the intronic and exonic read counts for each gene in the provided GTF file
+* `intron_exon_rpkm.txt` contains the intronic and exonic RPKM values for each gene in the provided GTF file
+* `intron_exon_rpkm_summary.txt` contains a summary of the intronic and exonic mapping reads from each input bam file.
+* `introns_exons.gtf` contains the intronic and exonic RPKM values for each gene in the provided GTF file
