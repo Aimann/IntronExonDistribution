@@ -52,7 +52,7 @@ path_to_bams = "/path/to/bams/{condition}.bam"
 ```
 3. Navigate to the directory with your Snakefile and run it with:
 ```bash
-snakemake
+snakemake --cores 1
 ```
 
 ### Output files
