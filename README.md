@@ -10,7 +10,7 @@ Small set of python scripts to map reads from mRNA sequencing data to the intron
 Dependencies can be installed using conda:
 
 ```bash
-conda env create -f intronexon.yml
+conda env create -f intronexon.yaml
 ```
 
 ## Input files
