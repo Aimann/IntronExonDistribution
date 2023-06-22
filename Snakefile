@@ -14,14 +14,14 @@ rule all:
     input:
         "intron_exon_rpkm.txt",
         "intron_exon_rpkm_summary.txt",
-	    "intron_exon_rpkm_reformat.txt"
+	"intron_exon_rpkm_reformat.txt"
 ## Get the exon and intron coordinates and generates a gtf file
 rule get_exon_intron_coords:
     input:
         gtf=gtf_file
     output:
         "introns_exons.gtf",
-	    "gene_types.txt"
+	"gene_types.txt"
     shell:
         "python scripts/intronExon.py --gtf {input.gtf} --genetype {genetype}"
 ## Count the reads in the introns and the exons
@@ -41,7 +41,7 @@ rule counts_to_rpkm:
     output:
         "intron_exon_rpkm.txt",
         "intron_exon_rpkm_summary.txt",
-	    "intron_exon_counts_reformat.txt",
-	    "intron_exon_rpkm_reformat.txt"
+	"intron_exon_counts_reformat.txt",
+	"intron_exon_rpkm_reformat.txt"
     shell:
         "python scripts/calculateRPKM.py --counts {input.count_file} --genetypes {input.gene_type_file}"
