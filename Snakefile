@@ -1,8 +1,8 @@
 ## Path to your gtf file
-gtf_file = "gencode.v41.basic.annotation.gtf"
+gtf_file = "/path/to/gtf/gencode.v41.basic.annotation.gtf"
 
 ## Path to your bam files
-path_to_bams = "bams/{condition}.bam"
+path_to_bams = "/path/to/bams/{condition}.bam"
 
 ## Transcript types; can do multiple types by separating with a space
 genetype = "protein_coding lncRNA"
