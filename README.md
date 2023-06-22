@@ -56,7 +56,6 @@ snakemake --cores 1
 ```
 
 ### Output files
-* `intron_exon_counts.tx` contains the intronic and exonic read counts for each gene in the provided GTF file
+* `intron_exon_counts.txt` contains the intronic and exonic read counts for each gene in the provided GTF file
+* `intron_exon_counts_reformat.txt` contains the intronic and exonic read counts for each gene in the provided GTF file formatted in a gene x exon...intron table
 * `intron_exon_rpkm.txt` contains the intronic and exonic RPKM values for each gene in the provided GTF file
-* `intron_exon_rpkm_summary.txt` contains a summary of the intronic and exonic mapping reads from each input bam file.
-* `introns_exons.gtf` contains the gene coordinates for the introns and exons for each of the longest transcripts in the provided GTF file.
