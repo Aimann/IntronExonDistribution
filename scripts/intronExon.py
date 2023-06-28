@@ -20,6 +20,7 @@ class exonIntron(object):
                 parts = line.strip().split('\t')
                 if parts[2] == 'exon':
                     attributes = dict(item.strip().split(' ') for item in parts[8].strip().split(';') if item.strip())
+
                     if '_PAR_' in attributes['gene_id'].strip('"'):
                         pass
                     elif '_PAR_' not in attributes['transcript_id'].strip('"') and attributes['gene_type'].strip('"') in args.genetype:
@@ -30,10 +31,12 @@ class exonIntron(object):
                         exon_start = int(parts[3])
                         exon_end = int(parts[4])
                         gene_type = attributes['gene_type'].strip('"')
+                        ens_id = attributes['gene_id'].strip('"')
+                        ens_transcript_id = attributes['transcript_id'].strip('"')
 
                         if gene_id not in gene_transcripts:
                             gene_transcripts[gene_id] = {}
-                            gene_types[gene_id] = gene_type
+                            gene_types[gene_id] = ens_id + '|' + ens_transcript_id + '|' + gene_type
                         if transcript_id not in gene_transcripts[gene_id]:
                             gene_transcripts[gene_id][transcript_id] = []
                         gene_transcripts[gene_id][transcript_id].append((chrom, exon_start, exon_end, strand, gene_type))
@@ -60,6 +63,7 @@ if __name__ == '__main__':
     genes, genetypeD = exonintron.extract_coordinates(args.gtf)
 
     genetypedf = pd.DataFrame.from_dict(genetypeD, orient='index', columns=['gene_type'])
+    genetypedf[['ENSEMBL_Gene_ID', 'ENSEMBL_Transcript_ID', 'gene_type']] = genetypedf['gene_type'].str.split('|', expand=True)
     genetypedf.to_csv('gene_types.txt', index=True, sep='\t', header=True, quoting=csv.QUOTE_NONE, quotechar="",  escapechar="\\")
 
     genedata = []
