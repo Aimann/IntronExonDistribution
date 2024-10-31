@@ -1,0 +1,6 @@
+hub Cocci Posadasii
+shortLabel Cocci
+longLabel Cocci Posadasii
+genomesFile genomes.txt
+email amanning@realseq.com
+

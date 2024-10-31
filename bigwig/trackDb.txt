@@ -1,0 +1,314 @@
+track Intracellular
+compositeTrack on
+shortLabel Intracellular
+longLabel Intracellular
+visibility full
+type bigWig
+
+	track Arthroconidia_48hr_RiboMarker_1
+	parent Intracellular on
+	bigDataUrl Arthroconidia_48hr_RiboMarker_1_fwd.bw
+	shortLabel Arthroconidia_48hr_RiboMarker_1
+	longLabel Arthroconidia_48hr_RiboMarker_1
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 44,160,44
+
+	track Arthroconidia_48hr_RiboMarker_2
+	parent Intracellular on
+	bigDataUrl Arthroconidia_48hr_RiboMarker_2_fwd.bw
+	shortLabel Arthroconidia_48hr_RiboMarker_2
+	longLabel Arthroconidia_48hr_RiboMarker_2
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 44,160,44
+
+	track Arthroconidia_48hr_RiboMarker_3
+	parent Intracellular on
+	bigDataUrl Arthroconidia_48hr_RiboMarker_3_fwd.bw
+	shortLabel Arthroconidia_48hr_RiboMarker_3
+	longLabel Arthroconidia_48hr_RiboMarker_3
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 44,160,44
+
+	track Arthroconidia_72hr_RiboMarker_1
+	parent Intracellular on
+	bigDataUrl Arthroconidia_72hr_RiboMarker_1_fwd.bw
+	shortLabel Arthroconidia_72hr_RiboMarker_1
+	longLabel Arthroconidia_72hr_RiboMarker_1
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 247,182,210
+
+	track Arthroconidia_72hr_RiboMarker_2
+	parent Intracellular on
+	bigDataUrl Arthroconidia_72hr_RiboMarker_2_fwd.bw
+	shortLabel Arthroconidia_72hr_RiboMarker_2
+	longLabel Arthroconidia_72hr_RiboMarker_2
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 247,182,210
+
+	track Arthroconidia_72hr_RiboMarker_3
+	parent Intracellular on
+	bigDataUrl Arthroconidia_72hr_RiboMarker_3_fwd.bw
+	shortLabel Arthroconidia_72hr_RiboMarker_3
+	longLabel Arthroconidia_72hr_RiboMarker_3
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 247,182,210
+
+	track Arthroconidia_96hr_RiboMarker_1
+	parent Intracellular on
+	bigDataUrl Arthroconidia_96hr_RiboMarker_1_fwd.bw
+	shortLabel Arthroconidia_96hr_RiboMarker_1
+	longLabel Arthroconidia_96hr_RiboMarker_1
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 148,103,189
+
+	track Arthroconidia_96hr_RiboMarker_3
+	parent Intracellular on
+	bigDataUrl Arthroconidia_96hr_RiboMarker_3_fwd.bw
+	shortLabel Arthroconidia_96hr_RiboMarker_3
+	longLabel Arthroconidia_96hr_RiboMarker_3
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 148,103,189
+
+	track Spherule_RiboMarker_1
+	parent Intracellular on
+	bigDataUrl Spherule_RiboMarker_1_fwd.bw
+	shortLabel Spherule_RiboMarker_1
+	longLabel Spherule_RiboMarker_1
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 227,119,194
+
+	track Spherule_RiboMarker_2
+	parent Intracellular on
+	bigDataUrl Spherule_RiboMarker_2_fwd.bw
+	shortLabel Spherule_RiboMarker_2
+	longLabel Spherule_RiboMarker_2
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 227,119,194
+
+	track Spherule_RiboMarker_3
+	parent Intracellular on
+	bigDataUrl Spherule_RiboMarker_3_fwd.bw
+	shortLabel Spherule_RiboMarker_3
+	longLabel Spherule_RiboMarker_3
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 227,119,194
+
+track Exosome
+compositeTrack on
+shortLabel Exosome
+longLabel Exosome
+visibility full
+type bigWig
+
+	track Arthroconidia_48hr_Exosome_RiboMarker_1
+	parent Exosome on
+	bigDataUrl Arthroconidia_48hr_Exosome_RiboMarker_1_fwd.bw
+	shortLabel Arthroconidia_48hr_Exosome_RiboMarker_1
+	longLabel Arthroconidia_48hr_Exosome_RiboMarker_1
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 152,223,138
+
+	track Arthroconidia_48hr_Exosome_RiboMarker_2
+	parent Exosome on
+	bigDataUrl Arthroconidia_48hr_Exosome_RiboMarker_2_fwd.bw
+	shortLabel Arthroconidia_48hr_Exosome_RiboMarker_2
+	longLabel Arthroconidia_48hr_Exosome_RiboMarker_2
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 152,223,138
+
+	track Arthroconidia_48hr_Exosome_RiboMarker_3
+	parent Exosome on
+	bigDataUrl Arthroconidia_48hr_Exosome_RiboMarker_3_fwd.bw
+	shortLabel Arthroconidia_48hr_Exosome_RiboMarker_3
+	longLabel Arthroconidia_48hr_Exosome_RiboMarker_3
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 152,223,138
+
+	track Arthroconidia_72hr_Exosome_RiboMarker_1
+	parent Exosome on
+	bigDataUrl Arthroconidia_72hr_Exosome_RiboMarker_1_fwd.bw
+	shortLabel Arthroconidia_72hr_Exosome_RiboMarker_1
+	longLabel Arthroconidia_72hr_Exosome_RiboMarker_1
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 31,119,180
+
+	track Arthroconidia_72hr_Exosome_RiboMarker_2
+	parent Exosome on
+	bigDataUrl Arthroconidia_72hr_Exosome_RiboMarker_2_fwd.bw
+	shortLabel Arthroconidia_72hr_Exosome_RiboMarker_2
+	longLabel Arthroconidia_72hr_Exosome_RiboMarker_2
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 31,119,180
+
+	track Arthroconidia_72hr_Exosome_RiboMarker_3
+	parent Exosome on
+	bigDataUrl Arthroconidia_72hr_Exosome_RiboMarker_3_fwd.bw
+	shortLabel Arthroconidia_72hr_Exosome_RiboMarker_3
+	longLabel Arthroconidia_72hr_Exosome_RiboMarker_3
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 31,119,180
+
+	track Arthroconidia_96hr_Exosome_RiboMarker_1
+	parent Exosome on
+	bigDataUrl Arthroconidia_96hr_Exosome_RiboMarker_1_fwd.bw
+	shortLabel Arthroconidia_96hr_Exosome_RiboMarker_1
+	longLabel Arthroconidia_96hr_Exosome_RiboMarker_1
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 255,127,14
+
+	track Arthroconidia_96hr_Exosome_RiboMarker_3
+	parent Exosome on
+	bigDataUrl Arthroconidia_96hr_Exosome_RiboMarker_3_fwd.bw
+	shortLabel Arthroconidia_96hr_Exosome_RiboMarker_3
+	longLabel Arthroconidia_96hr_Exosome_RiboMarker_3
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 255,127,14
+
+	track Spherule_Exosome_RiboMarker_2
+	parent Exosome on
+	bigDataUrl Spherule_Exosome_RiboMarker_2_fwd.bw
+	shortLabel Spherule_Exosome_RiboMarker_2
+	longLabel Spherule_Exosome_RiboMarker_2
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 196,156,148
+
+	track Spherule_Exosome_RiboMarker_3
+	parent Exosome on
+	bigDataUrl Spherule_Exosome_RiboMarker_3_fwd.bw
+	shortLabel Spherule_Exosome_RiboMarker_3
+	longLabel Spherule_Exosome_RiboMarker_3
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 196,156,148
+
+	track Control_48hr_Exosome_RiboMarker
+	parent Exosome on
+	bigDataUrl Control_48hr_Exosome_RiboMarker_fwd.bw
+	shortLabel Control_48hr_Exosome_RiboMarker
+	longLabel Control_48hr_Exosome_RiboMarker
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 214,39,40
+
+	track Control_72hr_Exosome_RiboMarker
+	parent Exosome on
+	bigDataUrl Control_72hr_Exosome_RiboMarker_fwd.bw
+	shortLabel Control_72hr_Exosome_RiboMarker
+	longLabel Control_72hr_Exosome_RiboMarker
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 214,39,40
+
+	track Control_96hr_Exosome_RiboMarker
+	parent Exosome on
+	bigDataUrl Control_96hr_Exosome_RiboMarker_fwd.bw
+	shortLabel Control_96hr_Exosome_RiboMarker
+	longLabel Control_96hr_Exosome_RiboMarker
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 214,39,40
+
+	track Control_Exosome_RiboMarker
+	parent Exosome on
+	bigDataUrl Control_Exosome_RiboMarker_fwd.bw
+	shortLabel Control_Exosome_RiboMarker
+	longLabel Control_Exosome_RiboMarker
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 214,39,40
+
