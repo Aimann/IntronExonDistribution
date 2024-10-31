@@ -1,0 +1,38 @@
+hub sNAX
+shortLabel sNAX
+longLabel sNAX
+genomesFile genomes.txt
+email aimannin212@gmail.com
+
+track Ctrl_A
+bigDataUrl Ctrl_A_fwd.bw
+shortLabel Ctrl_A
+longLabel Ctrl_A
+group Ctrl
+type bigWig
+visibility full
+
+track Ctrl_B
+bigDataUrl Ctrl_B_fwd.bw
+shortLabel Ctrl_B
+longLabel Ctrl_B
+group Ctrl
+type bigWig
+visibility full
+
+track RiboMarker_A
+bigDataUrl RiboMarker_A_fwd.bw
+shortLabel RiboMarker_A
+longLabel RiboMarker_A
+group RiboMarker
+type bigWig
+visibility full
+
+track RiboMarker_B
+bigDataUrl RiboMarker_B_fwd.bw
+shortLabel RiboMarker_B
+longLabel RiboMarker_B
+group RiboMarker
+type bigWig
+visibility full
+
