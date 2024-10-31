@@ -1,0 +1,139 @@
+track myComposite
+compositeTrack on
+shortLabel Grouped Tracks
+longLabel Grouped Autoscale Tracks for Comparison
+visibility full
+type bigWig
+
+	track Arthroconidia_48hr_RiboMarker_1
+	parent myComposite on
+	bigDataUrl Arthroconidia_48hr_RiboMarker_1_fwd.bw
+	shortLabel Arthroconidia_48hr_RiboMarker_1
+	longLabel Arthroconidia_48hr_RiboMarker_1
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 255,127,14
+
+	track Arthroconidia_48hr_RiboMarker_2
+	parent myComposite on
+	bigDataUrl Arthroconidia_48hr_RiboMarker_2_fwd.bw
+	shortLabel Arthroconidia_48hr_RiboMarker_2
+	longLabel Arthroconidia_48hr_RiboMarker_2
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 255,127,14
+
+	track Arthroconidia_48hr_RiboMarker_3
+	parent myComposite on
+	bigDataUrl Arthroconidia_48hr_RiboMarker_3_fwd.bw
+	shortLabel Arthroconidia_48hr_RiboMarker_3
+	longLabel Arthroconidia_48hr_RiboMarker_3
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 255,127,14
+
+	track Arthroconidia_72hr_RiboMarker_1
+	parent myComposite on
+	bigDataUrl Arthroconidia_72hr_RiboMarker_1_fwd.bw
+	shortLabel Arthroconidia_72hr_RiboMarker_1
+	longLabel Arthroconidia_72hr_RiboMarker_1
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 255,187,120
+
+	track Arthroconidia_72hr_RiboMarker_2
+	parent myComposite on
+	bigDataUrl Arthroconidia_72hr_RiboMarker_2_fwd.bw
+	shortLabel Arthroconidia_72hr_RiboMarker_2
+	longLabel Arthroconidia_72hr_RiboMarker_2
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 255,187,120
+
+	track Arthroconidia_72hr_RiboMarker_3
+	parent myComposite on
+	bigDataUrl Arthroconidia_72hr_RiboMarker_3_fwd.bw
+	shortLabel Arthroconidia_72hr_RiboMarker_3
+	longLabel Arthroconidia_72hr_RiboMarker_3
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 255,187,120
+
+	track Arthroconidia_96hr_RiboMarker_1
+	parent myComposite on
+	bigDataUrl Arthroconidia_96hr_RiboMarker_1_fwd.bw
+	shortLabel Arthroconidia_96hr_RiboMarker_1
+	longLabel Arthroconidia_96hr_RiboMarker_1
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 174,199,232
+
+	track Arthroconidia_96hr_RiboMarker_3
+	parent myComposite on
+	bigDataUrl Arthroconidia_96hr_RiboMarker_3_fwd.bw
+	shortLabel Arthroconidia_96hr_RiboMarker_3
+	longLabel Arthroconidia_96hr_RiboMarker_3
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 174,199,232
+
+	track Spherule_RiboMarker_1
+	parent myComposite on
+	bigDataUrl Spherule_RiboMarker_1_fwd.bw
+	shortLabel Spherule_RiboMarker_1
+	longLabel Spherule_RiboMarker_1
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 31,119,180
+
+	track Spherule_RiboMarker_2
+	parent myComposite on
+	bigDataUrl Spherule_RiboMarker_2_fwd.bw
+	shortLabel Spherule_RiboMarker_2
+	longLabel Spherule_RiboMarker_2
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 31,119,180
+
+	track Spherule_RiboMarker_3
+	parent myComposite on
+	bigDataUrl Spherule_RiboMarker_3_fwd.bw
+	shortLabel Spherule_RiboMarker_3
+	longLabel Spherule_RiboMarker_3
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 31,119,180
+

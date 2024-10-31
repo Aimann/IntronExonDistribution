@@ -1,0 +1,2 @@
+genome GCA_000170175.2
+trackDb trackDb.txt
