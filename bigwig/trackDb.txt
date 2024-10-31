@@ -5,7 +5,7 @@ longLabel Grouped Autoscale Tracks for Comparison
 type bigWig
 
 	track Ctrl_A
-	parent myComposite on
+	parent myComposite
 	bigDataUrl Ctrl_A_fwd.bw
 	shortLabel Ctrl_A
 	longLabel Ctrl_A
