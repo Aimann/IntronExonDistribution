@@ -1,0 +1,6 @@
+hub sNAX
+shortLabel sNAX
+longLabel sNAX
+genomesFile genomes.txt
+email aimannin212@gmail.com
+
