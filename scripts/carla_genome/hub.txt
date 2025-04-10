@@ -1,0 +1,6 @@
+hub carla_genome
+shortLabel carla_genome
+longLabel carla_genome
+genomesFile genomes.txt
+email aimannin212@gmail.com
+
