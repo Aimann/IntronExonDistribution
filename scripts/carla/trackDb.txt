@@ -1,0 +1,43 @@
+track myComposite
+compositeTrack on
+shortLabel Grouped Tracks
+longLabel Grouped Autoscale Tracks for Comparison
+visibility full
+type bigWig
+
+	track Negative_1
+	parent myComposite on
+	bigDataUrl Negative_1_fwd.bw
+	shortLabel Negative_1
+	longLabel Negative_1
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 174,199,232
+
+	track High_4
+	parent myComposite on
+	bigDataUrl High_4_fwd.bw
+	shortLabel High_4
+	longLabel High_4
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 31,119,180
+
+	track High_5
+	parent myComposite on
+	bigDataUrl High_5_fwd.bw
+	shortLabel High_5
+	longLabel High_5
+	type bigWig
+	visibility full
+	autoScale on
+	configurable on
+	maxHeightPixels 100:50:8
+	color 31,119,180
+
