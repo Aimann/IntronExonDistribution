@@ -1,6 +1,6 @@
-hub sNAX
-shortLabel sNAX
-longLabel sNAX
+hub carla
+shortLabel carla
+longLabel carla
 genomesFile genomes.txt
 email aimannin212@gmail.com
 
