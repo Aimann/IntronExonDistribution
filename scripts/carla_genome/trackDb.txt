@@ -15,7 +15,7 @@ type bigWig
 	autoScale on
 	configurable on
 	maxHeightPixels 100:50:8
-	color 31,119,180
+	color 88,65,135
 
 	track Negative_1_rev
 	parent myComposite on
@@ -27,7 +27,7 @@ type bigWig
 	autoScale on
 	configurable on
 	maxHeightPixels 100:50:8
-	color 31,119,180
+	color 152,31,24
 
 	track High_4
 	parent myComposite on
@@ -39,7 +39,7 @@ type bigWig
 	autoScale on
 	configurable on
 	maxHeightPixels 100:50:8
-	color 174,199,232
+	color 88,65,135
 
 	track High_4_rev
 	parent myComposite on
@@ -51,7 +51,7 @@ type bigWig
 	autoScale on
 	configurable on
 	maxHeightPixels 100:50:8
-	color 174,199,232
+	color 152,31,24
 
 	track High_5
 	parent myComposite on
@@ -63,7 +63,7 @@ type bigWig
 	autoScale on
 	configurable on
 	maxHeightPixels 100:50:8
-	color 174,199,232
+	color 88,65,135
 
 	track High_5_rev
 	parent myComposite on
@@ -75,5 +75,5 @@ type bigWig
 	autoScale on
 	configurable on
 	maxHeightPixels 100:50:8
-	color 174,199,232
+	color 152,31,24
 
